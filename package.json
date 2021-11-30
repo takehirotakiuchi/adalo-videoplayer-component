@@ -2,7 +2,7 @@
   "name": "takehiro-library",
   "author": "Takehiro Takiuchi",
   "description": "This is a video player.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "ISC",
   "scripts": {
@@ -18,9 +18,7 @@
         "name": "AdaloCompnent",
         "manifest": "./src/components/AdaloCompnent/manifest.json"
       }
-    ],
-    "iosInstallScript": "./scripts/install_ios.sh",
-    "androidInstallScript": "./scripts/install_android.sh"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
