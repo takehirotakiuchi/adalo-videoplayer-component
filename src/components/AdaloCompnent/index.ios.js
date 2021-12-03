@@ -75,7 +75,7 @@ const AdaloCompnent = (props) => {
 
   const onSeeking = currentTime => setCurrentTime(currentTime);
 
-	render() {
+	
 		return (
 			<View style={styles.wrapper}>
 			<Video
@@ -109,7 +109,6 @@ const AdaloCompnent = (props) => {
 			</View>
 
 		)
-	}
 }
 
 const styles = StyleSheet.create({
